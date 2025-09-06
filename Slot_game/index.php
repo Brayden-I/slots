@@ -36,7 +36,7 @@ while ($totalWinnings < $winningTarget && $spins < $maxSpins) {
 $index = 0;
 foreach ($results as $result) {
     $index++;
-    echo $index . $result . "<br>";
+    echo ("Spin $index: $result". "<br>");
 }
 
 echo "Game over. Total winnings: $totalWinnings dollars\n";
